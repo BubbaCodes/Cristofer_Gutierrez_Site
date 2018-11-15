@@ -1,4 +1,9 @@
 /*The main global design concepts for every page*/
+.under-construction {
+    font-size: 120px;
+    color: whitesmoke;
+    
+}
 body {
     font-family: Arial, serif;
     background-image: url(Photos/bee1color.jpg);
