@@ -1,6 +1,6 @@
 /*The main global design concepts for every page*/
 .under-construction {
-    font-size: 120px;
+    font-size: 8vw;
     color: whitesmoke;
     border: none;
 
@@ -130,7 +130,7 @@ header {
     color: goldenrod;
 }
 .top-name span{
-    font-size: 80px;
+    font-size: 5vw;
     font-family: "ocr a", monospace;
 }
 .light-up:hover {
@@ -190,6 +190,7 @@ the top tabs for each section*/
     max-width: 40%;
     min-width: 10%;
     overflow: hidden;
+    font-size: 2vw;
 } 
 /*-----------------------------------------------*/
 .individual-sections {
@@ -284,4 +285,7 @@ footer-nav section*/
 }
 #twitter {
     width: 30px;
+}
+@media(max-width: 568px){
+    .sub-nav {display:none}
 }
