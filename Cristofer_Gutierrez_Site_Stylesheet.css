@@ -1,0 +1,274 @@
+/*The main global design concepts for every page*/
+body {
+    font-family: Arial, serif;
+    background-image: url(Photos/bee1color.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    overflow-x: hidden;
+}
+/*--------------------------------------------*/
+/*Navigation and Slide Menu*/
+.nav-bar {
+    background-color: goldenrod;
+    overflow: hidden;
+    height: 80px;
+    margin: 14px;
+    padding: 14px;
+    border-radius: 10px;
+}
+.nav-bar a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    border-radius: 10px;
+}
+.nav-bar a:hover {
+    background-color: gold;
+    color: white;
+    border-radius: 10px;
+}
+.side-nav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-shadow: 0px -1px whitesmoke;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.3s;
+}
+.side-nav a {
+    display: block;
+    padding-right: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    color: rgba(218, 165, 32, 0.9);
+    transition: 0.3s;
+}
+.side-nav a:hover {
+    background-color: rgba(245, 245, 245, 0.9);
+    border-right: 12px solid whitesmoke;
+    border-left: 12px solid whitesmoke;
+}
+.side-nav .btn-close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 40px;
+}
+.side-nav .btn-close:hover {
+    border: none;
+}
+#main {
+    transition: 0.5s;
+    width: 100%;
+    padding: 15px;
+    overflow: hidden;
+}
+/*when the size of the screen is less than 568px the navbar text will no longer display but the box for the slide menu will still display*/
+@media(max-width: 568px){
+    .nav-bar-links{display:none}
+}
+/*-------------------------------------*/
+/*Sub Nav for the local page*/
+.sub-nav {
+    background-color: goldenrod;
+    overflow: hidden;
+    width: 70%;
+    min-width: 25%;
+    height: 80px;
+    margin: 14px;
+    padding: 14px;
+    border-radius: 10px;
+    position: relative;
+    left: 15%;
+    right: 15%;
+}
+.sub-nav a{
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    border-radius: 10px;
+}
+.sub-nav a:hover {
+    background-color: gold;
+    color: white;
+    border-radius: 10px;
+}
+/*header design with idividual light-up*/
+header {
+    background-color: rgba(218, 165, 32, 0);
+    margin-right: 14px;
+    margin-left: 14px;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 0px -1px whitesmoke;
+    color: goldenrod;
+}
+.top-name span{
+    font-size: 80px;
+    font-family: "ocr a", monospace;
+}
+.light-up:hover {
+    color: white;
+}
+/*
+------------------------------------------------
+about me section with my image*/
+#photo-of-me {
+    max-width: 40%;
+    min-width: 15%;
+    float: left;
+    margin: 30px;
+    border: 2px solid rgba(218, 165, 32, 0.5);
+}
+#section-about-me {
+    width: 70%;
+    display: block;
+    position: relative;
+    left: 15%;
+    background-color: rgba(43, 13, 63, 0.5);
+    margin: 15px;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    border: 12px solid rgba(218, 165, 32, 0.5);
+    color: goldenrod;
+}
+#signature-drawn {
+    max-width: 25%;
+    min-width: 15%;
+    position: relative;
+    left: 15px;
+}
+#signature {
+    max-width: 25%;
+    min-width: 5%;
+    display: block;
+    position: relative;
+    left: 40px;
+}
+/*---------------------------------------------
+the top tabs for each section*/
+.head-design {
+    position: absolute;
+    top: 25px;
+    left: 65px;
+    background-color: rgba(218, 165, 32, 0.5);
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    color: whitesmoke;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    max-width: 40%;
+    min-width: 10%;
+    overflow: hidden;
+} 
+/*-----------------------------------------------*/
+.individual-sections {
+    width: 70%;
+    display: block;
+    position: relative;
+    left: 15%;
+    background-color: rgba(43, 13, 63, 0.5);
+    margin: 15px;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    border: 12px solid rgba(218, 165, 32, 0.5);
+    color: goldenrod;
+}
+/*---------------------------------------------
+footer-nav section*/
+
+.nav-bar {
+    background-color: goldenrod;
+    overflow: hidden;
+    height: 80px;
+    margin: 14px;
+    padding: 14px;
+    border-radius: 10px;
+}
+.nav-bar a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    border-radius: 10px;
+}
+.nav-bar a:hover {
+    background-color: gold;
+    color: white;
+    border-radius: 10px;
+}
+.side-nav-bottom {
+    height: 0%;
+    width: 100px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-shadow: 0px -1px whitesmoke;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding-top: 25px;
+    transition: 0.3s;
+}
+.side-nav-bottom a {
+    display: block;
+    padding-right: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    color: rgba(218, 165, 32, 0.9);
+    transition: 0.3s;
+}
+.side-nav-bottom a:hover {
+    background-color: rgba(245, 245, 245, 0.9);
+    border-right: 12px solid whitesmoke;
+    border-left: 12px solid whitesmoke;
+}
+.side-nav-bottom .btn-close-bottom {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 40px;
+}
+.side-nav-bottom .btn-close-bottom:hover {
+    border: none;
+}
+#main {
+    transition: 0.5s;
+    height: 100%;
+    padding: 15px;
+    overflow: hidden;
+}
+
+@media(max-width: 568px){
+    .nav-bar-links{display:none}
+} 
+#instagram {
+    width: 40px;
+}
+#twitter {
+    width: 30px;
+}
