@@ -28,6 +28,10 @@ p img {
     padding: 14px;
     border-radius: 10px;
 }
+nav.nav-bar {
+    padding-right: 15%;
+    padding-left: 15%;
+}
 .nav-bar a {
     float: left;
     display: block;
