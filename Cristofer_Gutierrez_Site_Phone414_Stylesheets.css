@@ -26,7 +26,7 @@ p::first-letter {
     font-weight: bolder;
 }
 .awards {
-    width: 30vw;
+    width: 90%;
 }
 /*--------------------------------------------*/
 /*Navigation and Slide Menu*/
@@ -145,7 +145,7 @@ header {
     color: goldenrod;
 }
 .top-name span{
-    font-size: 5vw;
+    font-size: 7vw;
     font-family: 'Roboto Mono', monospace;
 }
 .light-up:hover {
@@ -155,17 +155,17 @@ header {
 ------------------------------------------------
 about me section with my image*/
 #photo-of-me {
-    max-width: 40%;
+    max-width: 83%;
     min-width: 15%;
     float: left;
     margin: 30px;
     border: 2px solid rgba(218, 165, 32, 0.5);
 }
 #section-about-me {
-    width: 70%;
+    width: 100%;
     display: block;
     position: relative;
-    left: 15%;
+    left: -5%;
     background-color: rgba(43, 13, 63, 0.5);
     margin: 15px;
     padding-top: 30px;
@@ -176,7 +176,7 @@ about me section with my image*/
     color: goldenrod;
 }
 #signature-drawn {
-    max-width: 25%;
+    max-width: 83%;
     min-width: 15%;
     position: relative;
     left: 15px;
@@ -205,14 +205,14 @@ the top tabs for each section*/
     max-width: 40%;
     min-width: 10%;
     overflow: hidden;
-    font-size: 2vw;
+    font-size: 6vw;
 } 
 /*-----------------------------------------------*/
 .individual-sections {
-    width: 70%;
+    width: 100%;
     display: block;
     position: relative;
-    left: 15%;
+    left: -5%;
     background-color: rgba(43, 13, 63, 0.5);
     margin: 15px;
     padding-top: 30px;
