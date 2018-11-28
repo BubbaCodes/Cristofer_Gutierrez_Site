@@ -31,16 +31,18 @@ p::first-letter {
 /*--------------------------------------------*/
 /*Navigation and Slide Menu*/
 .nav-bar {
-    background-color: goldenrod;
+    background-color: rgba(218, 165, 32, 0.45);
     overflow: hidden;
     height: 80px;
-    margin: 14px;
-    padding: 14px;
-    border-radius: 10px;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 45px;
 }
 nav.nav-bar {
-    padding-right: 15%;
-    padding-left: 15%;
+    padding-left: 3%;
+    width: 25vw;
+    position: fixed;
+    z-index: 1;
 }
 .nav-bar a {
     float: left;
@@ -48,7 +50,7 @@ nav.nav-bar {
     color: whitesmoke;
     text-align: center;
     text-decoration: none;
-    padding: 14px 16px;
+    padding: 10px 20px;
     border-radius: 10px;
 }
 .nav-bar a:hover {
