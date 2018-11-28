@@ -42,6 +42,7 @@ nav.nav-bar {
     padding-left: 3%;
     width: 22vw;
     position: fixed;
+    /* top: 57px; */
     z-index: 1;
 }
 .nav-bar a {
@@ -139,6 +140,30 @@ nav.nav-bar {
     color: white;
     border-radius: 10px;
 }
+/* ------------------------------------------------ */
+/* tab-nav for the local html */
+div.tab-nav {
+    width: 100%;
+    height: 30px; 
+    font-size: 67%;
+    display: inline-block;
+    position: fixed;
+    left: -173px;
+    top: 70%;
+    z-index: 1;
+    -ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+}
+.tab-nav a {
+    background-color: rgba(218, 165, 32, 0.5);
+    text-decoration: none;
+    text-align: center;
+    padding: 1% 1%;
+    border-radius: 15px 15px 0px 0px;
+    color: whitesmoke;
+}
+/* -------------------------------------------- */
 /*header design with idividual light-up*/
 header {
     background-color: rgba(218, 165, 32, 0);
@@ -195,7 +220,7 @@ about me section with my image*/
     left: 40px;
 }
 /*---------------------------------------------
-the top tabs for each section*/
+the top tabs for each section only visible on screens bigger than 954px wide*/
 .head-design {
     position: absolute;
     top: 25px;
@@ -333,7 +358,8 @@ legend {
 #contactInfoForm {
    padding-right: 150px;
 }
-/* ------------------------------------------------ */
+/* ------------------------------------------------
+media specific changes to navigation style */
 @media screen and (max-width:414px) {
     .nav-bar {
         padding: 10px;
@@ -347,6 +373,7 @@ legend {
         padding-left: 3%;
         width: 22vw;
         position: fixed;
+        /* top: 57px; */
         z-index: 1;
     }
 }
@@ -358,5 +385,10 @@ legend {
 @media screen and (max-width: 414px) {
     #slide-menu-sub-section a {
         font-size: 12px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .side-nav-bottom {
+        display: none;
     }
 }
