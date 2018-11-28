@@ -7,7 +7,7 @@
 }
 body {
     font-family: 'Roboto Mono', monospace;
-    background-image: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/46857553_292421824713022_8683533422712324096_n.jpg?_nc_cat=111&_nc_eui2=AeE2RYQgnUuGcBWoTGMq-gh5EyQTPNT-4XKyhyIRzt4hI6WEXhY9wEvUBHMLN3F1BV2zjtVgIWgoH8bnYJPoM69s2Wen9WbOqCXxbjaooB1CtA&_nc_ht=scontent-sjc3-1.xx&oh=2d6b5a4aa35e1629fbd0c87d98843e6c&oe=5C6EF244);
+    background-color: rgb(105, 48, 1);
     background-attachment: fixed;
     background-position: center;
     overflow-x: hidden;
