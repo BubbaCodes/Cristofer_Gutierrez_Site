@@ -285,6 +285,9 @@ footer-nav section*/
 .side-nav-bottom .btn-close-bottom:hover {
     border: none;
 }
+#slide-menu-sub-section a {
+    font-size: 12px;
+}
 #main {
     transition: 0.5s;
     height: 100%;
