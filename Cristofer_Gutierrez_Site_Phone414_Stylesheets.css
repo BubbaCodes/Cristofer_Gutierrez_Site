@@ -148,7 +148,7 @@ div.tab-nav {
     font-size: 67%;
     display: inline-block;
     position: fixed;
-    left: -60%;
+    left: -58%;
     top: 70%;
     z-index: 1;
     -ms-transform: rotate(90deg); 
@@ -402,7 +402,7 @@ and (-webkit-device-pixel-ratio : 3)
         font-size: 67%;
         display: inline-block;
         position: fixed;
-        left: -60%;
+        left: -58%;
         top: 70%;
         z-index: 1;
         -ms-transform: rotate(90deg); 
