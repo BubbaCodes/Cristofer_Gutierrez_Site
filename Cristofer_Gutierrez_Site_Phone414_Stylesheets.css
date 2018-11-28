@@ -355,3 +355,8 @@ legend {
         padding: 14px 14px;
     }
 }
+@media screen and (max-width: 414px) {
+    #slide-menu-sub-section a {
+        font-size: 12px;
+    }
+}
