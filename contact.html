@@ -72,10 +72,44 @@
                     </div>
                 </nav>
     <main id="main" class="main">
+        <!-- Under Constructions -->
         <p class="under-construction"><img class="under-construction" src="Photos\BeeLogo.png" alt="bee">Patient. This Site Is Under Construction. Thank You!</p>
+
+        <!-- Contact Form -->
+        <form>
+            <fieldset>
+                <legend>Contact Me</legend>
+
+                <div id="contactInfoForm">
+                    <label for="contactFullName">Full Name: </label>
+                    <input type="text" id="contactFullName" placeholder="John Smith" required>
+                    <br>
+
+                    <label for="contactEmail">Email:</label>
+                    <input type="email" id="contactEmail" placeholder="John.Smith@sampleemail.com" required>
+                    <br>
+
+                    <label for="contactNumber">Phone Number:</label>
+                    <input type="tel" id="contactNumber">
+                    <br>
+
+                    <label for="contactQuestion">Are you a company?</label>
+                    <input type="checkbox" id="contactQuestion">
+                    <br>
+                </div>
+
+                <label for="contactMessage"></label>
+                <textarea rows="4" cols="60" id="contactMessage"></textarea>
+
+                <button>Send Info</button>
+
+            </fieldset>
+        </form>
+        <!-- LinkedIn badge that is to the right -->
         <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="cristofer-gutierrez-742065155"><a class="LI-simple-link" href='https://www.linkedin.com/in/cristofer-gutierrez-742065155?trk=profile-badge'>Cristofer Gutierrez</a></div>
     </main>
     <footer>
+        <!-- Footer Nav with svg that opens the bottom menu for site map -->
             <nav class="nav-bar">
                     <span class="open-slide">
                         <a href="##" onclick="openSlideMenuBottom()">
@@ -128,8 +162,9 @@
                 </nav>
         
     </footer>
-
+    <!-- My JS for this site -->
     <script src="Cristofer_Gutierrez_Site_Javascript.js"></script>
+    <!-- the JS for the LinkedIn badge -->
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </body>
 </html>

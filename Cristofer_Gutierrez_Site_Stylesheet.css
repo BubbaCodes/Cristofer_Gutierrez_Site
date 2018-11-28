@@ -6,17 +6,24 @@
 
 }
 body {
-    font-family: Arial, serif;
+    font-family: 'Roboto Mono', monospace;
     background-image: url(Photos/bee1color.jpg);
     background-attachment: fixed;
     background-position: center;
     overflow-x: hidden;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 p img {
     max-width: 500px;
     min-width: 15%;
     margin: 30px;
     border: 2px solid rgba(218, 165, 32, 0.5);
+}
+p::first-letter {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bolder;
 }
 /*--------------------------------------------*/
 /*Navigation and Slide Menu*/
@@ -136,7 +143,7 @@ header {
 }
 .top-name span{
     font-size: 5vw;
-    font-family: "ocr a", monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 .light-up:hover {
     color: white;
@@ -302,4 +309,19 @@ footer-nav section*/
 }
 @media(max-width: 1852px){
     .LI-profile-badge {display: none}
+}
+/* for all forms on the site */
+form {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: goldenrod;
+    width: 40vw;
+    margin: 30px;
+    padding: 30px;
+    text-align: right;
+}
+legend {
+    text-align: left;
+}
+#contactInfoForm {
+   padding-right: 150px;
 }
