@@ -7,7 +7,7 @@
 }
 body {
     font-family: 'Roboto Mono', monospace;
-    background-image: url(Photos/bee1color.jpg);
+    background-image: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/46857553_292421824713022_8683533422712324096_n.jpg?_nc_cat=111&_nc_eui2=AeE2RYQgnUuGcBWoTGMq-gh5EyQTPNT-4XKyhyIRzt4hI6WEXhY9wEvUBHMLN3F1BV2zjtVgIWgoH8bnYJPoM69s2Wen9WbOqCXxbjaooB1CtA&_nc_ht=scontent-sjc3-1.xx&oh=2d6b5a4aa35e1629fbd0c87d98843e6c&oe=5C6EF244);
     background-attachment: fixed;
     background-position: center;
     overflow-x: hidden;
@@ -31,7 +31,7 @@ p::first-letter {
 /*--------------------------------------------*/
 /*Navigation and Slide Menu*/
 .nav-bar {
-    background-color: rgba(218, 165, 32, 0.45);
+    background-color:  rgba(218, 165, 32, 0.5);
     overflow: hidden;
     height: 80px;
     margin: 4px;
@@ -40,7 +40,7 @@ p::first-letter {
 }
 nav.nav-bar {
     padding-left: 3%;
-    width: 25vw;
+    width: 22vw;
     position: fixed;
     z-index: 1;
 }
@@ -329,4 +329,26 @@ legend {
 }
 #contactInfoForm {
    padding-right: 150px;
+}
+/* ------------------------------------------------ */
+@media screen and (max-width:414px) {
+    .nav-bar {
+        padding: 10px;
+        margin: 4px;
+        background-color: rgba(218, 165, 32, 0.5);
+        border-radius: 45px;
+    }
+}
+@media screen and (max-width:414px) {
+    nav.nav-bar {
+        padding-left: 3%;
+        width: 22vw;
+        position: fixed;
+        z-index: 1;
+    }
+}
+@media screen and (max-width:414px) {
+    .nav-bar a {
+        padding: 14px 14px;
+    }
 }
