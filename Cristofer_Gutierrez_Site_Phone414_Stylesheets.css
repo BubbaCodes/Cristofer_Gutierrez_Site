@@ -143,12 +143,12 @@ nav.nav-bar {
 /* ------------------------------------------------ */
 /* tab-nav for the local html */
 div.tab-nav {
-    width: 100%;
-    height: 30px; 
+    width: 120%;
+    height: 5%; 
     font-size: 67%;
     display: inline-block;
     position: fixed;
-    left: -173px;
+    left: -60%;
     top: 70%;
     z-index: 1;
     -ms-transform: rotate(90deg); 
@@ -393,179 +393,16 @@ media specific changes to navigation style */
     }
 }
 @media screen 
-and (min-width: 360px)
-and (max-width: 640px)
+and (max-width: 414px)
 and (-webkit-device-pixel-ratio : 3)
  {
     div.tab-nav {
-        width: 100%;
-        height: 22px; 
+        width: 120%;
+        height: 5%; 
         font-size: 67%;
         display: inline-block;
         position: fixed;
-        left: -164px;
-        top: 70%;
-        z-index: 1;
-        -ms-transform: rotate(90deg); 
-        -webkit-transform: rotate(90deg); 
-        transform: rotate(90deg);
-    }
-    .tab-nav a {
-        background-color: rgb(218, 165, 32);
-        text-decoration: none;
-        text-align: center;
-        padding: 1% 1%;
-        border-radius: 15px 15px 0px 0px;
-        color: whitesmoke;
-    }
-}
-/* IPhone X */
-@media only screen 
-and (min-width : 375px) 
-and (max-width : 812px)
-and (-webkit-device-pixel-ratio : 3) {
-    div.tab-nav {
-        width: 100%;
-        height: 0px; 
-        font-size: 67%;
-        display: inline-block;
-        position: fixed;
-        left: -169px;
-        top: 70%;
-        z-index: 1;
-        -ms-transform: rotate(90deg); 
-        -webkit-transform: rotate(90deg); 
-        transform: rotate(90deg);
-    }
-    .tab-nav a {
-        background-color: rgb(218, 165, 32);
-        text-decoration: none;
-        text-align: center;
-        padding: 1% 1%;
-        border-radius: 15px 15px 0px 0px;
-        color: whitesmoke;
-    }
-}
-/* other IPhones */
-@media only screen 
-and (min-width : 375px) 
-and (max-width : 667px)
-and (-webkit-device-pixel-ratio : 2)
-{
-    div.tab-nav {
-        width: 100%;
-        height: 0px; 
-        font-size: 67%;
-        display: inline-block;
-        position: fixed;
-        left: -170px;
-        top: 70%;
-        z-index: 1;
-        -ms-transform: rotate(90deg); 
-        -webkit-transform: rotate(90deg); 
-        transform: rotate(90deg);
-    }
-    .tab-nav a {
-        background-color: rgb(218, 165, 32);
-        text-decoration: none;
-        text-align: center;
-        padding: 1% 1%;
-        border-radius: 15px 15px 0px 0px;
-        color: whitesmoke;
-    }
-}
-@media only screen 
-and (min-width : 414px) 
-and (max-width : 736px)
-and (-webkit-device-pixel-ratio : 3) {
-    div.tab-nav {
-        width: 100%;
-        height: 0px; 
-        font-size: 67%;
-        display: inline-block;
-        position: fixed;
-        left: -190px;
-        top: 70%;
-        z-index: 1;
-        -ms-transform: rotate(90deg); 
-        -webkit-transform: rotate(90deg); 
-        transform: rotate(90deg);
-    }
-    .tab-nav a {
-        background-color: rgb(218, 165, 32);
-        text-decoration: none;
-        text-align: center;
-        padding: 1% 1%;
-        border-radius: 15px 15px 0px 0px;
-        color: whitesmoke;
-    }
-}
-@media only screen 
-and (min-width : 320px) 
-and (max-width : 568px)
-and (-webkit-device-pixel-ratio : 2) {
-    div.tab-nav {
-        width: 100%;
-        height: 0px; 
-        font-size: 67%;
-        display: inline-block;
-        position: fixed;
-        left: -155px;
-        top: 70%;
-        z-index: 1;
-        -ms-transform: rotate(90deg); 
-        -webkit-transform: rotate(90deg); 
-        transform: rotate(90deg);
-    }
-    .tab-nav a {
-        background-color: rgb(218, 165, 32);
-        text-decoration: none;
-        text-align: center;
-        padding: 1% 1%;
-        border-radius: 15px 15px 0px 0px;
-        color: whitesmoke;
-    }
-}
-/* google phones */
-/* Pixle 2 */
-@media only screen 
-and (min-width : 411px) 
-and (max-width : 731px)
-and (-webkit-device-pixel-ratio : 2.6) {
-    div.tab-nav {
-        width: 100%;
-        height: 0px; 
-        font-size: 67%;
-        display: inline-block;
-        position: fixed;
-        left: -203px;
-        top: 70%;
-        z-index: 1;
-        -ms-transform: rotate(90deg); 
-        -webkit-transform: rotate(90deg); 
-        transform: rotate(90deg);
-    }
-    .tab-nav a {
-        background-color: rgb(218, 165, 32);
-        text-decoration: none;
-        text-align: center;
-        padding: 1% 1%;
-        border-radius: 15px 15px 0px 0px;
-        color: whitesmoke;
-    }
-}
-/* Pixle 2plus */
-@media only screen 
-and (min-width : 411px) 
-and (max-width : 823px)
-and (-webkit-device-pixel-ratio : 3.5) {
-    div.tab-nav {
-        width: 100%;
-        height: 0px; 
-        font-size: 67%;
-        display: inline-block;
-        position: fixed;
-        left: -190px;
+        left: -60%;
         top: 70%;
         z-index: 1;
         -ms-transform: rotate(90deg); 
