@@ -210,7 +210,7 @@ the top tabs for each section*/
 /*-----------------------------------------------*/
 .individual-sections {
     width: 70%;
-    display: block;
+    display: flow-root;
     position: relative;
     left: 15%;
     background-color: rgba(43, 13, 63, 0.5);
@@ -336,4 +336,77 @@ legend {
     .tab-nav {
         display: none;
     }
+}
+/* _________________________________________ */
+/* photo gallary on portfolio html */
+#photoGallary div {
+    width: 29.5vw;
+    height: 29.5vw;
+    margin: 2.47%;
+    border: 1px solid black;
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+#photoGallary div:nth-of-type(1) {
+    background: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/46917933_292804681341403_8147137383771406336_n.jpg?_nc_cat=102&_nc_eui2=AeEtTXjgNZC-l_zJy394AGyWn0yyA8uEetFYzYhuYOOc5U8LK79UHsFMFznCnjZE1mT_BI6mNuwhTDnivt52q6c5cNXv4gilERYsiK9VSUxAdg&_nc_ht=scontent-sjc3-1.xx&oh=f6f040b94b6acae78d51b8bcf826fdd0&oe=5CA21115);
+    background-attachment: local;
+    background-position: center;
+    background-size: 29.5vw;
+    margin-top: 8%;
+}
+#photoGallary div:nth-of-type(2) {
+    background: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/47087318_292804648008073_428035663330279424_n.jpg?_nc_cat=110&_nc_eui2=AeGeJ7j3YRBkU5frWSKK3lPcYJp24ModRg6zH3in8dFymkatB43-hX3WcP0Wkp1BV4_tLsMCTuOnzQRnXhTj_9V0Tcfo3i-GfCsUmopYnRUjDA&_nc_ht=scontent-sjc3-1.xx&oh=7e1c72a9877489897315d0e8bec41cc9&oe=5C6494CD);
+    background-attachment: local;
+    background-position: center;
+    background-size: 29.5vw;
+    margin-top: 8%;
+}
+#photoGallary div:nth-of-type(3) {
+    background: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/47136679_292804734674731_5207161471418499072_n.jpg?_nc_cat=106&_nc_eui2=AeGMOWWO0Yck-XiGH5MN210rvwlUwy7UozP9D8BNRgnAbJNtI2pS4RuhMHYDM_OWaQNtHf8EWN0SDRH_6pCJqxyHDmiuIZ_Ly7_PvAjb8Gqgag&_nc_ht=scontent-sjc3-1.xx&oh=9793f1245718fcdd2f60085307a5a816&oe=5CAE9330);
+    background-attachment: local;
+    background-position: center;
+    background-size: 29.5vw;
+}
+#photoGallary div:nth-of-type(4) {
+    background: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/47102132_292804768008061_1145186118182895616_n.jpg?_nc_cat=104&_nc_eui2=AeGQk1elTOTN--zScCMTRqNmHj6gqqkvcbM6vEnq13yE_vQl57BHULDXPAw8SXDTCJBTAyEabJ89uF7xzVFGSJbwpspvKj9om3JKW2O_bpnUxg&_nc_ht=scontent-sjc3-1.xx&oh=c543f94f956efa706e86702561b9b4ec&oe=5CAC124D);
+    background-attachment: local;
+    background-position: center;
+    background-size: 29.5vw;
+}
+#photoGallary div:nth-of-type(5) {
+    background: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/47084973_292804808008057_6107615551301877760_n.jpg?_nc_cat=106&_nc_eui2=AeEhjwBGbLto589LQo4k-VP9HPCCZw8yHXYkv9R5NKLHEy-gxwOVGTPyfxjX_UkWj_bfXIXVPpGKzuZu1E5JSFy7DO9JrwBKLQ80QaZ0wBpthQ&_nc_ht=scontent-sjc3-1.xx&oh=4009d3111f271e31e5a876916b08dfbe&oe=5C635EB5);
+    background-attachment: local;
+    background-position: center;
+    background-size: 29.5vw;
+}
+#photoGallary div:nth-of-type(6) {
+    background: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/47213038_292804814674723_2792061400501977088_n.jpg?_nc_cat=100&_nc_eui2=AeE5uWML7B0E4rRUKXo5WwcrFwB3L0EAm427jMqva-0PEADD9Hts0RXfxqHkWlcQF_Pf-P1v-4L7S1YFAWBazA8rjf3QIUGezmVDiVVI3KMYlA&_nc_ht=scontent-sjc3-1.xx&oh=a0d5566ad65d6ae7dd89a42b6a53e7ab&oe=5CADDC7D);
+    background-attachment: local;
+    background-position: center;
+    background-size: 29.5vw;
+}
+#photoGallary div:nth-of-type(7) {
+    background: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/47123346_292804848008053_5534671715788914688_n.jpg?_nc_cat=105&_nc_eui2=AeFS-p3pDp96qi18MgS149uAqCf00NZpUCFadEsIW15Do7ai4yU7CEXQoT-9yLU4BXkFVuEr5Cf9LkVs6M-_xvCAMWEOLwTooikwV35eIM98fA&_nc_ht=scontent-sjc3-1.xx&oh=bd39ccc90c7c061d1737b2c69f61214f&oe=5CAC19AB);
+    background-attachment: local;
+    background-position: center;
+    background-size: 29.5vw;
+}
+#photoGallary div:nth-of-type(8) {
+    background: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/46517387_292804964674708_5871778583545905152_n.jpg?_nc_cat=105&_nc_eui2=AeFTsN47OaC_BLPHylZbyrruTv-qa4YQuPNRg3MYL_rhcVpnJGTpHPXPmp-ncRuFQw0Zk2YH5mcYGhGLEeMdIa0KU10udiUYFgOXbodGz9mp5w&_nc_ht=scontent-sjc3-1.xx&oh=8706bff4ffc59d7f147b4ec80800bc3e&oe=5C69C14B);
+    background-attachment: local;
+    background-position: center;
+    background-size: 29.5vw;
+}
+#photoGallary div:nth-of-type(9) {
+    background: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/47092033_292804904674714_2842908212649263104_n.jpg?_nc_cat=109&_nc_eui2=AeEYAA6y3gbN2dFsOIvbI1U78BbxaB4JQ-ZCtm4Ro3yq9xQ_DOq7IBU_bj_FARSIL3_lByarsU6uobNSjstVvkCnaEopyRE3JbnJeXZtATsxdQ&_nc_ht=scontent-sjc3-1.xx&oh=84fa73794bf30aae9868ebf1d5ccc494&oe=5CA3BC61);
+    background-attachment: local;
+    background-position: center;
+    background-size: 29.5vw;
+}
+#photoGallary div:nth-of-type(10) {
+    background: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/47132082_292804941341377_4808600497898389504_n.jpg?_nc_cat=103&_nc_eui2=AeEhCZxyQP8FAsO9_KGBPIPoO25lOQx7_4yOgWyni8E_N5Vhd6fW3Et954IX8M5-FIj97sGxlbAVUxkSqc93JI8ifhjqv1YhPNj8Rgqeo1CAPw&_nc_ht=scontent-sjc3-1.xx&oh=14c5246418f2fb9f25a7597ff1ec7cf8&oe=5C6E26A5);
+    background-attachment: local;
+    background-position: center;
+    background-size: 29.5vw;
 }
