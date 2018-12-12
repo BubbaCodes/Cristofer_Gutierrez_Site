@@ -20,4 +20,5 @@ function closeSlideMenuBottom() {
     document.getElementById('side-menu-bottom').style.width='0%';
     document.getElementById('main').style.marginBottom='0px';
 }
+
 /*-----------------*/
